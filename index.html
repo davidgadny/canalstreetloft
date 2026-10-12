@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Rent a 2,200 sq ft sunlit loft on Canal Street between SoHo and Tribeca. Up to 100 guests, grand piano, 4.9 stars from 52 reviews. From $225/hr.">
+<meta property="og:title" content="The Canal Street Loft · SoHo/Tribeca event space">
+<meta property="og:description" content="2,200 sq ft sunlit NYC loft for parties, shoots and dinners. Up to 100 guests. 4.9 ★ from 52 reviews.">
+<meta property="og:image" content="https://canalstreetloft.com/img/loft-6.jpg">
+<meta property="og:url" content="https://canalstreetloft.com/">
+<link rel="canonical" href="https://canalstreetloft.com/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23c8102e'/><text x='16' y='23' font-family='Arial' font-weight='bold' font-size='18' fill='white' text-anchor='middle'>C</text></svg>">
+<title>The Canal Street Loft</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=Instrument+Serif:ital@1&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: full-bleed loft photo opener, then a single editorial column with a wide photo strip; red is reserved for the booking action, like the lit Marlboro sign in the room. */
+:root {
+  --bg: #f6f5f3;          /* whitewashed brick */
+  --surface: #ffffff;
+  --ink: #161514;         /* ebonized floorboards */
+  --muted: #64605b;
+  --line: #dedbd6;
+  --sign: #c8102e;        /* the Marlboro sign */
+  --sign-ink: #ffffff;
+  --display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+  --serif: "Instrument Serif", "Times New Roman", serif;
+  --body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --wrap: 1120px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121110; --surface: #1c1a19; --ink: #f1efec; --muted: #a8a29b;
+    --line: #2f2c2a; --sign: #e0233f; --sign-ink: #ffffff; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121110; --surface: #1c1a19; --ink: #f1efec; --muted: #a8a29b;
+  --line: #2f2c2a; --sign: #e0233f; --sign-ink: #ffffff; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { overflow-x: hidden; }
+@supports (overflow: clip) { html, body { overflow-x: clip; } }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 17px/1.6 var(--body); -webkit-font-smoothing: antialiased; }
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--sign); outline-offset: 3px; }
+.wrap { max-width: var(--wrap); margin: 0 auto; padding-inline: 20px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 800; line-height: .95; text-wrap: balance; margin: 0; text-transform: uppercase; letter-spacing: .01em; }
+h2 { font-size: clamp(2.4rem, 6vw, 4rem); }
+h3 { font-size: 1.5rem; font-weight: 600; }
+p { margin: 0; }
+.lede { font-size: 1.15rem; color: var(--muted); max-width: 60ch; }
+section { padding-block: clamp(64px, 10vw, 120px); }
+
+/* Top bar */
+.bar { position: absolute; inset: 0 0 auto 0; z-index: 5; padding-top: env(safe-area-inset-top, 0px); }
+.bar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 18px; color: #fff; }
+.mark { font: 800 1.35rem/1 var(--display); text-transform: uppercase; letter-spacing: .04em; text-decoration: none; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 0 24px; border: 0; border-radius: 999px; background: var(--sign); color: var(--sign-ink); font: 600 1rem/1 var(--body); text-decoration: none; cursor: pointer; transition: transform .15s ease, filter .15s ease; }
+.btn:hover { filter: brightness(1.08); transform: translateY(-1px); }
+.btn.ghost { background: transparent; color: inherit; box-shadow: inset 0 0 0 1.5px currentColor; }
+.bar .btn { min-height: 42px; padding: 0 18px; font-size: .95rem; }
+
+/* Hero */
+.hero { position: relative; min-height: min(92vh, 860px); display: flex; align-items: flex-end; color: #fff; background: #111 url("img/loft-6.jpg") center 55% / cover no-repeat; padding: 0; }
+.hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.45) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,.15) 50%, rgba(0,0,0,.78) 100%); }
+.hero .wrap { position: relative; width: 100%; padding-block: 0 clamp(36px, 7vw, 72px); }
+.lockup { width: min(100%, 620px); display: grid; gap: .6em; font-size: clamp(14px, 1.6vw, 18px); filter: drop-shadow(0 2px 18px rgba(0,0,0,.28)); }
+.lockup .top { display: flex; align-items: center; gap: 14px; }
+.lockup .the { font: italic 400 2.6em/1 var(--serif); letter-spacing: 0; text-transform: none; }
+.lockup .rule { flex: 1; height: 1px; background: rgba(255,255,255,.7); }
+.lockup .where { font: 600 .8em/1 var(--body); letter-spacing: .2em; text-transform: uppercase; white-space: nowrap; }
+.lockup svg { display: block; width: 100%; height: auto; overflow: visible; }
+.lockup text { fill: #fff; font-family: var(--display); font-weight: 800; }
+.lockup .l2 text { font-weight: 600; }
+.hero .sub { margin-top: 18px; font-size: clamp(1.05rem, 2.2vw, 1.3rem); max-width: 34ch; color: rgba(255,255,255,.9); }
+.hero .ctas { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.facts { display: flex; flex-wrap: wrap; gap: 8px 28px; margin: 32px 0 0; padding: 20px 0 0; border-top: 1px solid rgba(255,255,255,.3); list-style: none; font-size: .98rem; color: rgba(255,255,255,.92); font-variant-numeric: tabular-nums; }
+.facts b { font-weight: 600; color: #fff; }
+
+/* Intro */
+.intro { display: grid; grid-template-columns: 1fr; gap: 28px; }
+@media (min-width: 860px) { .intro { grid-template-columns: 1.05fr 1fr; gap: 72px; align-items: end; } }
+.intro p + p { margin-top: 16px; }
+.uses { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border-top: 1px solid var(--line); }
+.uses li { padding: 16px 0; border-bottom: 1px solid var(--line); font-weight: 500; }
+.uses li:nth-child(odd) { padding-right: 16px; }
+.uses small { display: block; color: var(--muted); font-weight: 400; font-size: .9rem; }
+
+/* Gallery */
+.gallery { padding-block: 0; }
+.strip { display: grid; grid-template-columns: repeat(12, 1fr); gap: 10px; max-width: 1400px; margin: 0 auto; padding-inline: 20px; }
+.strip button { padding: 0; border: 0; background: var(--line); cursor: zoom-in; overflow: hidden; border-radius: 10px; }
+.strip img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
+.strip button:hover img { transform: scale(1.03); }
+.strip .a { grid-column: span 5; aspect-ratio: 3/4; }
+.strip .b { grid-column: span 7; aspect-ratio: 7/5.36; }
+.strip .c, .strip .d, .strip .e { grid-column: span 4; aspect-ratio: 3/4; }
+.strip .f, .strip .g { grid-column: span 6; aspect-ratio: 4/3; }
+@media (max-width: 700px) {
+  .strip { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .strip .a, .strip .c, .strip .d, .strip .e, .strip .f, .strip .g { grid-column: span 1; aspect-ratio: 3/4; }
+  .strip .b { grid-column: span 2; aspect-ratio: 4/3; }
+}
+
+/* Details */
+.details { display: grid; gap: 48px; }
+@media (min-width: 860px) { .details { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 56px; } }
+.details h3 { margin-bottom: 14px; }
+.details ul { margin: 0; padding: 0; list-style: none; }
+.details li { padding: 9px 0; border-bottom: 1px solid var(--line); }
+.details li:first-child { border-top: 1px solid var(--line); }
+.details .note { color: var(--muted); font-size: .95rem; margin-top: 14px; }
+
+/* Rates */
+.rates { background: var(--ink); color: var(--bg); }
+.rates .grid { display: grid; gap: 40px; }
+@media (min-width: 860px) { .rates .grid { grid-template-columns: 1.1fr 1fr; gap: 80px; align-items: center; } }
+.price { font: 800 clamp(4rem, 12vw, 7.5rem)/.9 var(--display); font-variant-numeric: tabular-nums; }
+.price small { font-size: .35em; font-weight: 600; margin-left: 6px; }
+.rates .lede { color: inherit; opacity: .78; margin-top: 16px; }
+.rate-list { list-style: none; margin: 0; padding: 0; font-variant-numeric: tabular-nums; }
+.rate-list li { display: flex; justify-content: space-between; gap: 16px; padding: 14px 0; border-bottom: 1px solid color-mix(in srgb, var(--bg) 22%, transparent); }
+.rate-list li span:last-child { font-weight: 600; text-align: right; }
+
+/* Reviews */
+.reviews-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 16px 32px; margin-bottom: 40px; }
+.score { font: 800 clamp(3rem, 8vw, 5rem)/.9 var(--display); }
+.score span { font-size: .4em; font-weight: 600; color: var(--muted); margin-left: 8px; }
+.quotes { columns: 1; column-gap: 40px; }
+@media (min-width: 720px) { .quotes { columns: 2; } }
+@media (min-width: 1040px) { .quotes { columns: 3; } }
+.quotes figure { break-inside: avoid; margin: 0 0 36px; }
+.quotes blockquote { margin: 0; font-size: 1.08rem; line-height: 1.5; }
+.quotes figcaption { margin-top: 10px; color: var(--muted); font-size: .92rem; }
+.stars { color: var(--sign); letter-spacing: 2px; font-size: .9rem; display: block; margin-bottom: 8px; }
+
+/* Inquiry */
+.book { background: var(--surface); border-top: 1px solid var(--line); }
+.book .grid { display: grid; gap: 40px; }
+@media (min-width: 900px) { .book .grid { grid-template-columns: 1fr 1.25fr; gap: 72px; } }
+.contact { margin-top: 28px; display: grid; gap: 14px; }
+.contact div { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+.contact dt { color: var(--muted); font-size: .9rem; min-width: 56px; }
+.contact dd { margin: 0; font-weight: 600; font-size: 1.1rem; user-select: all; }
+form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.field { display: grid; gap: 6px; min-width: 0; }
+.field.full { grid-column: 1 / -1; }
+label { font-size: .9rem; font-weight: 500; }
+input, select, textarea { width: 100%; min-height: 48px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--bg); color: var(--ink); font: inherit; }
+textarea { min-height: 110px; resize: vertical; }
+/* iOS gives date/time fields a fixed native width that pushes past the screen */
+input[type="date"], input[type="time"] { -webkit-appearance: none; appearance: none; display: block; min-width: 0; max-width: 100%; text-align: left; }
+input::-webkit-date-and-time-value { text-align: left; }
+input:focus, select:focus, textarea:focus { outline: 2px solid var(--sign); outline-offset: -1px; border-color: transparent; }
+.estimate { grid-column: 1 / -1; padding: 16px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 16px; font-variant-numeric: tabular-nums; }
+.estimate strong { font-size: 1.2rem; }
+.estimate span { color: var(--muted); font-size: .92rem; }
+.send { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 12px; }
+.send .btn { flex: 1 1 200px; }
+.form-note { grid-column: 1 / -1; color: var(--muted); font-size: .9rem; }
+.form-note[data-state="error"] { color: var(--sign); }
+@media (max-width: 520px) { form { grid-template-columns: 1fr; } }
+
+footer { padding-block: 40px calc(96px + env(safe-area-inset-bottom, 0px)); color: var(--muted); font-size: .92rem; }
+footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
+@media (min-width: 720px) { footer { padding-bottom: 40px; } }
+
+/* Mobile sticky CTA */
+.sticky { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px)); background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(10px); border-top: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.sticky p { font-size: .9rem; line-height: 1.3; }
+.sticky b { font-size: 1rem; }
+.sticky { transform: translateY(110%); transition: transform .25s ease; }
+.sticky.on { transform: none; }
+@media (min-width: 720px) { .sticky { display: none; } }
+
+/* Phone: one action per screen, fewer facts, calmer type */
+@media (max-width: 719px) {
+  body { font-size: 16px; }
+  .bar, .hero .ghost, .facts .wide { display: none; }
+  .hero { min-height: calc(100svh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)); background-position: center; }
+  .hero { align-items: stretch; }
+  .hero::before { background: linear-gradient(180deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,.2) 38%, rgba(0,0,0,0) 55%, rgba(0,0,0,0) 72%, rgba(0,0,0,.55) 100%); }
+  .hero .wrap { display: flex; flex-direction: column; padding-block: 28px 24px; }
+  .lockup { width: 100%; font-size: 3.6vw; }
+  .hero .facts { margin-top: 20px; padding-top: 16px; gap: 6px 20px; font-size: .95rem; }
+  .hero .sub { display: none; margin-top: 14px; font-size: 1.05rem; text-shadow: 0 1px 12px rgba(0,0,0,.35); }
+  .hero .ctas { margin-top: auto; padding-top: 24px; }
+  .hero .ctas .btn { width: 100%; min-height: 52px; font-size: 1.05rem; }
+  section { padding-block: 56px; }
+  h2 { font-size: 2.3rem; }
+  .intro .lede + .lede, .details .room { display: none; }
+  .details { gap: 36px; }
+  .quotes figure.more { display: none; }
+  .quotes.all figure.more { display: block; }
+}
+.more-btn { display: none; }
+@media (max-width: 719px) { .more-btn { display: inline-flex; } .quotes.all + .more-btn { display: none; } }
+
+/* Reviewer */
+.who { display: flex; align-items: center; gap: 12px; margin-top: 14px; }
+.who img { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; flex: none; background: var(--line); }
+.who b { display: block; color: var(--ink); font-weight: 600; font-size: .95rem; }
+.who span { color: var(--muted); font-size: .88rem; }
+
+/* Lightbox */
+[hidden] { display: none !important; }
+.lb { position: fixed; inset: 0; z-index: 50; background: rgba(10,10,10,.94); display: flex; align-items: center; justify-content: center; padding: 56px 16px; }
+.lb img { max-height: 100%; max-width: 100%; object-fit: contain; }
+.lb button { position: absolute; background: none; border: 0; color: #fff; font: 600 1rem/1 var(--body); padding: 14px; cursor: pointer; }
+.lb .x { top: calc(8px + env(safe-area-inset-top, 0px)); right: 8px; }
+.lb .prev { left: 4px; top: 50%; transform: translateY(-50%); font-size: 2rem; }
+.lb .next { right: 4px; top: 50%; transform: translateY(-50%); font-size: 2rem; }
+</style>
+</head>
+<body>
+<header class="bar">
+  <div class="wrap">
+    <a class="mark" href="#top">Canal St Loft</a>
+    <a class="btn" href="#book">Check availability</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <h1 class="lockup" aria-label="The Canal Street Loft">
+        <span class="top" aria-hidden="true"><span class="the">The</span><span class="rule"></span><span class="where">SoHo / Tribeca</span></span>
+        <svg viewBox="0 0 300 92" aria-hidden="true"><text x="0" y="92" font-size="128" textLength="300" lengthAdjust="spacingAndGlyphs">CANAL</text></svg>
+        <svg class="l2" viewBox="0 0 300 40" aria-hidden="true"><text x="1" y="40" font-size="55" textLength="298" lengthAdjust="spacingAndGlyphs">STREET LOFT</text></svg>
+      </h1>
+      <p class="sub">A 2,200 sq ft sunlit loft where SoHo meets Tribeca. For parties, shoots, dinners and launches.</p>
+      <div class="ctas">
+        <a class="btn" href="#book">Check your date</a>
+        <a class="btn ghost" href="#photos">See the space</a>
+      </div>
+      <ul class="facts">
+        <li><b>4.9 ★</b> from 52 reviews</li>
+        <li>Up to <b>100</b> guests</li>
+        <li><b>2,200</b> sq ft</li>
+        <li class="wide"><b>12 ft</b> ceilings</li>
+        <li class="wide">Open <b>24/7</b></li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="wrap intro">
+      <div>
+        <h2>A real New York loft, ready for your event</h2>
+      </div>
+      <div>
+        <p class="lede">Whitewashed brick, dark wood floors and a wall of windows over Canal Street. A grand piano in the corner, a long glass dining table, a bar area, and a vintage Marlboro sign that lights up the room.</p>
+        <p class="lede">Hosts have used it for 30th birthdays, brand activations, team offsites, dinner parties and photo shoots. It looks exactly like the pictures.</p>
+      </div>
+    </div>
+    <div class="wrap" style="margin-top:48px">
+      <ul class="uses">
+        <li>Birthdays &amp; parties<small>Comfortably fits 80–100 guests</small></li>
+        <li>Photo &amp; video shoots<small>All-day natural light</small></li>
+        <li>Dinners<small>Long table seating with a bar for drinks</small></li>
+        <li>Brand events &amp; meetings<small>Launches, offsites, workshops</small></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="gallery" id="photos" aria-label="Photos">
+    <div class="strip">
+      <button class="a" data-i="4"><img src="img/loft-5.jpg" alt="Living area with white sofas and a wall of windows" loading="lazy"></button>
+      <button class="b" data-i="5"><img src="img/loft-6.jpg" alt="Full length of the loft from the living area to the windows" loading="lazy"></button>
+      <button class="c" data-i="2"><img src="img/loft-3.jpg" alt="Black grand piano beside a window" loading="lazy"></button>
+      <button class="d" data-i="1"><img src="img/loft-2.jpg" alt="Glass dining table under the Marlboro sign" loading="lazy"></button>
+      <button class="e" data-i="6"><img src="img/loft-7.jpg" alt="Lounge seating with an acrylic coffee table" loading="lazy"></button>
+      <button class="f" data-i="0"><img src="img/loft-1.jpg" alt="View down the dining table to the windows" loading="lazy"></button>
+      <button class="g" data-i="3"><img src="img/loft-4.jpg" alt="Grand piano and the white sectional" loading="lazy"></button>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap details">
+      <div>
+        <h3>In the space</h3>
+        <ul>
+          <li>Black grand piano</li>
+          <li>Light-up vintage Marlboro sign</li>
+          <li>Long glass dining table with seating</li>
+          <li>Bar area for serving drinks</li>
+          <li>Sound system &amp; large-screen TV</li>
+          <li>White sectional and lounge sofas</li>
+        </ul>
+      </div>
+      <div class="room">
+        <h3>The room</h3>
+        <ul>
+          <li>2,200 sq ft open plan</li>
+          <li>12 ft ceilings, exposed pipes</li>
+          <li>Original brick walls</li>
+          <li>Dark wood floors</li>
+          <li>Windows across the front</li>
+          <li>Between SoHo, Tribeca &amp; Chinatown</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Good to know</h3>
+        <ul>
+          <li>4th-floor walk-up, no elevator</li>
+          <li>No soundproofing</li>
+          <li>4 hour minimum</li>
+          <li>Bookable any day, any hour</li>
+          <li>Steps from Canal St subway lines</li>
+        </ul>
+        <p class="note">Bring an extra set of hands for carrying supplies up. Guests say the walk-up is worth it.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="rates" id="rates">
+    <div class="wrap grid">
+      <div>
+        <h2>Rates</h2>
+        <p class="price">$225<small>–$325 / hr</small></p>
+        <p class="lede">Rate depends on day, time and group size. Send your date and headcount and David will confirm an exact quote, usually within a few hours.</p>
+      </div>
+      <ul class="rate-list">
+        <li><span>Minimum booking</span><span>4 hours</span></li>
+        <li><span>8+ hour bookings</span><span>5% off</span></li>
+        <li><span>Table extension</span><span>$100 each</span></li>
+        <li><span>Extra 20 guests</span><span>$250 flat</span></li>
+        <li><span>Availability</span><span>Mon–Sun, 24 hours</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="reviews">
+    <div class="wrap">
+      <div class="reviews-head">
+        <h2>What hosts say</h2>
+        <p class="score">4.9<span>average across 52 reviews on Peerspace</span></p>
+      </div>
+      <div class="quotes" id="quotes">
+        <figure><span class="stars" aria-label="5 stars">★★★★★</span><blockquote>Great space and accommodating hosts. Comfortably fits 80–100 guests. There's ample seating and table space for food. The bar area is great for serving drinks. Make sure to turn on the Marlboro sign (it lights up!), it totally completes the atmosphere.</blockquote><figcaption class="who"><img src="img/reviewers/francesca.jpg" alt="" loading="lazy"><div><b>Francesca M.</b><span>Event for 100</span></div></figcaption></figure>
+        <figure><span class="stars" aria-label="5 stars">★★★★★</span><blockquote>David's space was beyond phenomenal! I hosted my birthday event here and the layout, decor and sound equipment were incredible. I'll be re-booking again in the future.</blockquote><figcaption class="who"><img src="img/reviewers/emon.jpg" alt="" loading="lazy"><div><b>Emon W.</b><span>Brand Partnership Manager · event for 20</span></div></figcaption></figure>
+        <figure><span class="stars" aria-label="5 stars">★★★★★</span><blockquote>We had a great time at David's Soho Loft. It is exactly as it looks in the pictures. Clean, well maintained, and good communication with David. Highly recommend.</blockquote><figcaption class="who"><img src="img/reviewers/tchamy.jpg" alt="" loading="lazy"><div><b>Tchamy D.</b><span>Event for 50</span></div></figcaption></figure>
+        <figure class="more"><span class="stars" aria-label="5 stars">★★★★★</span><blockquote>Absolutely recommend this place to anyone! The hosts were super accommodating and responsive. The space itself was beautiful and super trendy. I cannot wait to book this again for another event!!</blockquote><figcaption class="who"><img src="img/reviewers/victoria.jpg" alt="" loading="lazy"><div><b>Victoria S.</b><span>Event for 40</span></div></figcaption></figure>
+        <figure class="more"><span class="stars" aria-label="5 stars">★★★★★</span><blockquote>I had an amazing experience booking with David for this awesome space for my birthday party for ~60 people. The space was as advertised and the host was very responsive and helpful!</blockquote><figcaption class="who"><img src="img/reviewers/amy.jpg" alt="" loading="lazy"><div><b>Amy Y.</b><span>Event for 60</span></div></figcaption></figure>
+        <figure class="more"><span class="stars" aria-label="5 stars">★★★★★</span><blockquote>Venue was gorgeous and spacious! Perfect for hosting a larger gathering, and the host was extremely helpful and responsive. Would definitely book again!</blockquote><figcaption class="who"><img src="img/reviewers/marissa.jpg" alt="" loading="lazy"><div><b>Marissa F.</b><span>Product Manager · event for 60</span></div></figcaption></figure>
+        <figure class="more"><span class="stars" aria-label="5 stars">★★★★★</span><blockquote>Great location and beautiful loft space. Perfect venue for my 30th birthday party.</blockquote><figcaption class="who"><img src="img/reviewers/john.jpg" alt="" loading="lazy"><div><b>John D.</b><span>Event for 30</span></div></figcaption></figure>
+        <figure class="more"><span class="stars" aria-label="5 stars">★★★★★</span><blockquote>Was a great spot to host my fiancée's 30th birthday! Spacious and lovely area for a small gathering.</blockquote><figcaption class="who"><img src="img/reviewers/kevin.jpg" alt="" loading="lazy"><div><b>Kevin W.</b><span>Event for 40</span></div></figcaption></figure>
+        <figure class="more"><span class="stars" aria-label="5 stars">★★★★★</span><blockquote>Great venue that was perfect for our event! Hosts were very responsive and helpful and we had a great experience!</blockquote><figcaption class="who"><img src="img/reviewers/naviya.jpg" alt="" loading="lazy"><div><b>Naviya M.</b><span>Peerspace guest</span></div></figcaption></figure>
+      </div>
+      <button class="btn ghost more-btn" type="button" id="more-reviews">Show 6 more reviews</button>
+    </div>
+  </section>
+
+  <section class="book" id="book">
+    <div class="wrap grid">
+      <div>
+        <h2>Check your date</h2>
+        <p class="lede" style="margin-top:16px">Tell us the date, hours and headcount. You'll hear back from David directly with availability and an exact quote.</p>
+        <dl class="contact">
+          <div><dt>Text</dt><dd><a href="sms:+19178421553">(917) 842-1553</a></dd></div>
+          <div><dt>Email</dt><dd><a href="mailto:269peerspace@gmail.com">269peerspace@gmail.com</a></dd></div>
+        </dl>
+      </div>
+      <form id="inquiry" novalidate>
+        <div class="field"><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
+        <div class="field"><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
+        <div class="field"><label for="f-date">Date</label><input id="f-date" name="date" type="date" required></div>
+        <div class="field"><label for="f-guests">Guests</label><input id="f-guests" name="guests" type="number" min="1" max="120" inputmode="numeric" value="40"></div>
+        <div class="field"><label for="f-start">Start time</label><input id="f-start" name="start" type="time" step="1800" value="18:00"></div>
+        <div class="field"><label for="f-end">End time</label><input id="f-end" name="end" type="time" step="1800" value="22:00"></div>
+        <div class="field full"><label for="f-type">Event type</label>
+          <select id="f-type" name="type"><option>Birthday or party</option><option>Photo or video shoot</option><option>Dinner</option><option>Brand event or launch</option><option>Meeting or offsite</option><option>Other</option></select></div>
+        <div class="field full"><label for="f-msg">Anything else?</label><textarea id="f-msg" name="msg" placeholder="Catering, setup time, gear, music…"></textarea></div>
+        <div class="estimate" aria-live="polite"><span id="dur">4 hours</span><strong id="est">$900–$1,300</strong></div>
+        <div class="send">
+          <button class="btn" type="submit" data-via="sms">Text my request</button>
+          <button class="btn ghost" type="submit" data-via="email">Email my request</button>
+        </div>
+        <p class="form-note" id="note">Opens your messages or email app with your details filled in. Nothing is charged until you confirm.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>The Canal Street Loft · Canal St, New York, NY</span>
+    <span>(917) 842-1553 · 269peerspace@gmail.com</span>
+  </div>
+</footer>
+
+<div class="sticky">
+  <p><b>$225–$325/hr</b><br>4.9 ★ · 4 hr minimum</p>
+  <a class="btn" href="#book">Check date</a>
+</div>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="x" type="button" aria-label="Close">Close ✕</button>
+  <button class="prev" type="button" aria-label="Previous photo">‹</button>
+  <img id="lb-img" alt="">
+  <button class="next" type="button" aria-label="Next photo">›</button>
+</div>
+
+<script>
+(() => {
+  const PHONE = "+19178421553", EMAIL = "269peerspace@gmail.com";
+  const $ = (id) => document.getElementById(id);
+  const money = (n) => "$" + Math.round(n).toLocaleString("en-US");
+
+  // Date picker can't go into the past
+  const today = new Date(); today.setMinutes(today.getMinutes() - today.getTimezoneOffset());
+  $("f-date").min = today.toISOString().slice(0, 10);
+
+  // Hours between start and end; an end at or before the start runs past midnight
+  function hours() {
+    const toMin = (v) => { const [h, m] = (v || "0:0").split(":").map(Number); return h * 60 + m; };
+    let d = toMin($("f-end").value) - toMin($("f-start").value);
+    if (d <= 0) d += 24 * 60;
+    return d / 60;
+  }
+  function estimate() {
+    const raw = hours();
+    const h = Math.max(raw, 4);
+    const off = h >= 8 ? 0.95 : 1;
+    const g = Number($("f-guests").value) || 0;
+    const extra = g > 80 ? 250 : 0;
+    const label = (n) => n + (n === 1 ? " hour" : " hours");
+    $("dur").textContent = raw < 4 ? label(raw) + " · billed as 4 hr minimum" : label(raw) + (off < 1 ? " · 5% off" : "");
+    $("est").textContent = money(225 * h * off + extra) + "–" + money(325 * h * off + extra);
+  }
+  ["f-start", "f-end", "f-guests"].forEach((id) => $(id).addEventListener("input", estimate));
+  estimate();
+
+  $("more-reviews").addEventListener("click", () => $("quotes").classList.add("all"));
+
+  // Phone booking bar appears once the hero's own button is off screen
+  const sticky = document.querySelector(".sticky");
+  if ("IntersectionObserver" in window) {
+    new IntersectionObserver(([e]) => sticky.classList.toggle("on", !e.isIntersecting)).observe(document.querySelector(".hero .ctas"));
+  } else {
+    sticky.classList.add("on");
+  }
+
+  function fmtDate(v) {
+    if (!v) return "";
+    const [y, m, d] = v.split("-").map(Number);
+    return new Date(y, m - 1, d).toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", year: "numeric" });
+  }
+  function fmtTime(v) {
+    if (!v) return "";
+    const [h, m] = v.split(":").map(Number);
+    return ((h + 11) % 12 + 1) + (m ? ":" + String(m).padStart(2, "0") : "") + (h < 12 ? "am" : "pm");
+  }
+
+  $("inquiry").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const via = e.submitter ? e.submitter.dataset.via : "sms";
+    const note = $("note");
+    if (!$("f-name").value.trim() || !$("f-date").value) {
+      note.dataset.state = "error";
+      note.textContent = "Add your name and a date so David can check availability.";
+      (!$("f-name").value.trim() ? $("f-name") : $("f-date")).focus();
+      return;
+    }
+    note.dataset.state = "";
+    const lines = [
+      "Hi David, I'd like to book the Canal Street Loft!\n",
+      "Date: " + fmtDate($("f-date").value),
+      "Time: " + fmtTime($("f-start").value) + " to " + fmtTime($("f-end").value) + " (" + hours() + " hrs)",
+      "Guests: " + $("f-guests").value,
+      "Event: " + $("f-type").value,
+      $("f-msg").value.trim() ? "Notes: " + $("f-msg").value.trim() : "",
+      "\n— " + $("f-name").value.trim() + ($("f-phone").value.trim() ? ", " + $("f-phone").value.trim() : "")
+    ].filter(Boolean).join("\n");
+    const href = via === "email"
+      ? "mailto:" + EMAIL + "?subject=" + encodeURIComponent("Loft inquiry: " + fmtDate($("f-date").value)) + "&body=" + encodeURIComponent(lines)
+      : "sms:" + PHONE + "?&body=" + encodeURIComponent(lines);
+    location.href = href;
+    note.textContent = "Your " + (via === "email" ? "email" : "text") + " is ready to send. If nothing opened, text (917) 842-1553 or email " + EMAIL + ".";
+  });
+
+  // Lightbox
+  const full = Array.from({ length: 7 }, (_, i) => "img/loft-" + (i + 1) + ".jpg");
+  const alts = {};
+  document.querySelectorAll(".strip button").forEach((b) => { alts[b.dataset.i] = b.querySelector("img").alt; b.addEventListener("click", () => open(+b.dataset.i)); });
+  const lb = $("lb"), img = $("lb-img");
+  let cur = 0, last = null;
+  function show(i) { cur = (i + full.length) % full.length; img.src = full[cur]; img.alt = alts[cur] || ""; }
+  function open(i) { last = document.activeElement; show(i); lb.hidden = false; lb.querySelector(".x").focus(); }
+  function close() { lb.hidden = true; if (last) last.focus(); }
+  lb.querySelector(".x").addEventListener("click", close);
+  lb.querySelector(".prev").addEventListener("click", () => show(cur - 1));
+  lb.querySelector(".next").addEventListener("click", () => show(cur + 1));
+  lb.addEventListener("click", (e) => { if (e.target === lb) close(); });
+  document.addEventListener("keydown", (e) => {
+    if (lb.hidden) return;
+    if (e.key === "Escape") close();
+    if (e.key === "ArrowLeft") show(cur - 1);
+    if (e.key === "ArrowRight") show(cur + 1);
+  });
+})();
+</script>
+</body>
+</html>
